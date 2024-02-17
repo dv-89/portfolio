@@ -1,0 +1,365 @@
+section {
+  padding-top: 4vh;
+  /* height: 96vh; */
+  /* margin: 0 2rem; */
+  box-sizing: border-box;
+  min-height: fit-content;
+  /* background-color: salmon; */
+  /* self below */
+  /* overflow: hidden; */
+  margin-bottom: 50vh;
+}
+
+/* *************************************** profile ************************************************* */
+#profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5rem;
+  height: auto;
+  margin: 5px;
+  margin-top: 10rem;
+  /* background-color: palegreen; */
+  padding: 20px;
+}
+
+/* #__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: red;
+} */
+
+.section__text__p1 {
+  padding: 5px;
+  text-align: center;
+  color: #ccd6f6;
+  /* font-size: 1rem; */
+}
+
+.title {
+  font-size: 2rem;
+  padding: 5px;
+  text-align: center;
+  color: #56dbc0;
+}
+
+.typewrite {
+  text-align: center;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+/* Buttons */
+.btn-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  color: aliceblue;
+}
+
+.btn-color-1,
+.btn-color-2 {
+  /* border: rgb(53, 53, 53) 0.1rem solid; */
+  border: white 0.1rem solid;
+  color: #56dbc0;
+  /* resume text color */
+  /* color: red; */
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  /* text 2 color */
+  cursor: pointer;
+  /* color: red; */
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  /* background: rgb(53, 53, 53); */
+  /* background: #ccd6f6; */
+  background: none;
+  /* resume hover color and contact text color */
+  color: white;
+}
+
+.btn-color-1:hover {
+  /* background: rgb(0, 0, 0); */
+  background: #ccd6f6;
+}
+
+.btn-color-2 {
+  background: none;
+}
+
+.btn-color-2:hover {
+  border: rgb(255, 255, 255) 0.1rem solid;
+  background: #56dbc0;
+}
+
+.btn-container {
+  gap: 1rem;
+}
+
+/* .section-contact {
+  display: flex;
+  text-align: left;
+  justify-content: first baseline;
+  list-style: 90px;
+  background-color: aquamarine;
+}
+
+.section-contact-container {
+  background-color: antiquewhite;
+  margin-left: 330px;
+} */
+
+/* *************************************** about *************************************************** */
+
+/* about section */
+#about {
+  margin: 5px;
+  padding: 20px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  /* background-color: palegreen; */
+}
+
+/* course work section */
+/* *************************************** course-work *************************************************** */
+.course-work {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  padding: 20px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.section-coursework {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  /* background-color: palegreen; */
+}
+
+.section-coursework-container {
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+.section-coursework-container p {
+  align-self: flex-start;
+  /* background-color: black; */
+}
+
+/* *************************************** experience *************************************************** */
+/* .section-experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: aquamarine;
+  height: auto;
+}
+
+.section-experience-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+}
+
+.section-experience-container h3 {
+  align-self: flex-start;
+  margin-bottom: 20px;
+  color: #56dbc0;
+}
+
+.section-experience-container p {
+  align-self: flex-start;
+  margin-top: 20px;
+} */
+
+/********** new exp ????? ***/
+/* Experience Section */
+#experience {
+  margin: 5px;
+  padding: 20px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.section-experience {
+  padding: 20px; /* Increased padding for better spacing */
+  /* background-color: palegreen;  */
+}
+
+.section-experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.section-experience-container h3 {
+  margin-bottom: 10px; /* Slightly reduced margin for a cleaner look */
+  color: #56dbc0; /* Turquoise color for headings */
+}
+
+.section-experience-container p {
+  margin-top: 10px; /* Slightly reduced margin for better spacing */
+  margin-bottom: 20px; /* Added bottom margin for better separation */
+}
+
+/* Additional Styling for List Items */
+.section-experience-container ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section-experience-container li {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+/* Style for the bullet points (optional) */
+.section-experience-container li::before {
+  content: "•"; /* Custom bullet point */
+  color: #56dbc0; /* Turquoise color */
+  font-size: 1.2em; /* Adjust the size as needed */
+  margin-right: 5px;
+  position: absolute;
+  left: -20px;
+}
+
+/* *************************************** projects *************************************************** */
+#projects {
+  margin: 5px;
+  padding: 20px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+.section-projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  height: auto;
+  /* background-color: palegreen; */
+}
+
+.section-projects-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: orange; */
+  margin-right: auto;
+  margin-left: auto;
+  /* padding: 10px; */
+  color: white;
+}
+
+.section-projects-container h3 {
+  align-self: flex-start;
+  /* text-decoration: underline;
+  text-underline-offset: 0.5rem; */
+  margin-bottom: 20px;
+  color: #56dbc0;
+}
+
+.section-projects-container p {
+  align-self: flex-start;
+  margin-top: 20px;
+}
+
+.section-projects-container ol li {
+  margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+/* *************************************** contacts *************************************************** */
+/* #contact {
+  margin: 5px;
+  padding: 20px;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+} */
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  /* background-color: palegreen; */
+}
+
+.section-contact-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: orange; */
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-contact-container p {
+  align-self: flex-start;
+  /* background-color: black; */
+}
+
+.custom-ordered-list {
+  padding-left: 20px; /* Adjust the space as needed */
+  list-style-position: inside;
+  /* color: red; */
+}
+
+/* .custom-ordered-list li::marker {
+  color: #56dbc0; /* Replace 'your-desired-color' with the color you want 
+} */
+
+.custom-main-list > li::marker {
+  color: #56dbc0;
+}
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+.project-list b {
+  color: orange;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinesh's portfolio</title>
+    <link rel="icon" href="assets/fav-icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hamburger.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="section.css">
+</head>
+<body>
+    
+    <div class="row">
+        <div class="column-1">
+            <nav id="desktop-nav">
+                <div>
+                    <ol class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#course-work">Course-work</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ol>
+                </div>
+            </nav>
+        </div>
+    
+        <div class="column-2">
+            <!-- <nav id="hamburger-nav">
+                <div class="logo">Dinesh Vardhan Bonthu</div>
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="menu-links">
+                        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                        <li><a href="#course-work" onclick="toggleMenu()">Course-work</a></li>
+                        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                    </div>
+                </div>
+            </nav> -->
+
+        <section id="profile">
+            <div class="__text">
+                <p class="section__text__p1">Hello, I'm</p>
+                <h1 class="title">Dinesh Vardhan Bonthu</h1>
+                <!-- <p >Software Developer | OH, USA</p> -->
+                <p class="typewrite" data-period="2000" data-type='[ "Software Developer", "OH, USA" ]'>
+                    <span class="wrap"></span>
+                </p>
+
+                <div class="btn-container">
+                    <button class="btn btn-color-2" onclick="window.open('./assets/resume-dinesh.pdf')">Download Resume</button>
+                    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                </div>
+                <div id="socials-container">
+                    
+                    <a href="https://www.linkedin.com/in/vardhandinesh/" target="_blank">
+                        <li-icon type="app-linkedin-bug-color-icon" class=" " size="large" role="img" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                            </svg>
+                        </li-icon>
+                    </a>
+
+                    <a aria-label="Dinesh Github Profile" title="GitHub" class="footer-octicon mr-2" href="https://github.com/dv-89" target="_blank">
+                        <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" fill="currentColor" data-view-component="true" class="octicon octicon-mark-github">
+                            <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-about">
+                <div class="about-container-01">
+                    <p>Hi! My name is Dinesh currently studying Masters in Computer Science at Wright State University. I have done my bachelors at Indian Institute of Information Technology Trichy.
+                        I love developing software applications. I am looking for roles such as Full stack developer, Backend developer, Front end developer.
+                        I have previously worked in Tata Consultancy Services as an Assistant System Engineer Trainee. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="course-work">
+            <p class="section__text__p1">Classes I took in Masters</p>
+            <h1 class="title">My CourseWork</h1>
+            <div class="section-coursework">
+                <div class="section-coursework-container">
+                    <ol>
+                        <li>High Performance Computing and Parallel Algorithm Design</li>
+                        <li>Cloud Computing</li>
+                        <li>Host Computer Security</li>
+                        <li>Algorithm Design Analysis</li>
+                        <li>Machine Learning</li>
+                        <li>Multi Modal Data Analysis</li>
+                        <li>Distributed Computing</li>
+                        <li>Functional and Logic Programming</li>
+
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <p class="section__text__p1">My previous work</p>
+            <h1 class="title">Professional Experience</h1>
+            <div class="section-experience">
+                <div class="section-experience-container">
+                    <h3>Tata Consultancy Services:</h3>
+                    <ol>
+                        <li>Migrated 6 functionalities from Bash to Python, Documented the changes made during the migration process.</li>
+                            
+                        <li>Developed scripts on automation for routine system maintenance, log analysis and basic system monitoring essentially saving time by 70%.</li>
+                            
+                        <li>Collaborated with three cross-functional teams to make contributions by developing efficient solutions.</li>
+
+                        <li>Completed 4 courses on SQL, Python, CI/CD practices and JavaScript for software development on platforms offered by company.</li>    
+                    
+                    </ol>
+                </p>
+            </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <p class="section__text__p1">Personal Projects and University Assignments</p>
+            <h1 class="title">My Projects</h1>
+            <div class="section-projects">
+                <div class="section-projects-container">
+                    <ol class="custom-main-list">
+                        <li>
+                            <div class="pro-01">
+                                <h3>Server side data processing of user input in web application: (backend)</h3>
+                                
+                                <ol class="custom-ordered-list">
+                                    <li>Created and deployed a Django project by hosting on an AWS EC2 instance, demonstrating proficiency in both web development and cloud technologies.</li>
+                                    <li>Implemented an optimized solution with minimal computation time processing over 40M iterations.</li>
+                                    <li>Integrated AJAX and JSON to streamline form submission, resulting in 100% data transfer accuracy.</li>
+                                    <li>Displayed real time output data dynamically on the website processing 20 million iterations parallelly across two servers.</li>
+                                </ol>
+                            </div>
+                        </li>
+                        
+                    
+                        <li>
+                            <div class="pro-02">
+                                <h3>Simulated File System:</h3>
+                                
+                                <ol class="custom-ordered-list">
+                                    <li>Created a simulated CLI using C++ from scratch, with the ability to create folders, files with content, deletion.</li>
+                                    <li>Applied object-oriented programming principles, made code readable and debugged code to attain 100% score.</li>                        
+                                    <li>Conducted thorough testing to ensure the program’s reliability by checking around edge cases.</li>
+                                    
+                                </ol>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="pro-03">
+                                <h3>E-commerce Application</h3>
+                                
+                                <ol class="custom-ordered-list">
+                                    <li>Developed front end clone of E-commerce website Amazon, used React and Redux for state management.</li>
+                                    <li>Integrated a checkout page and order history functionality, leveraging a NoSQL database for storage.</li>                        
+                                    <li>Streamlined secure payment processing into the application using the Stripe API.</li>
+                                    <li>Implemented user authentication to ensure secure logins, deploying the application worldwide using Firebase.</li>
+                                    <li>Access the page using the above Firebase URL. Note: This application is still under development with over 2,000 lines of code written and 50 hours invested in development.</li>
+                                    
+                                </ol>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="others">
+                                <h3>List of other projects that i have done.</h3>
+                                
+                                <ol class="project-list">
+                                    <li>Developed a <b>Priority-based Request Server</b> in C++ using multi-threading, used mutex for synchronization, efficiently processing requests with different priorities.</li>
+                                    <li>Implemented <b>Inter process communication</b> between a producer and consumer using pipe, direct messsage transfer, sockets, shared memory and semaphores</li>
+                                    <li>Developed an <b>Amazon Clone</b> using React JS, deployed using firebase. Features: Login page, shopping cart, Used NoSQL to maintain order history.</li>
+                                    <li>Implemented <b>Topic Modeling</b> techniques to extract insights from Amazon reviews, uncovering eight dominant topics and underlying themes using Python and Jupyter notebook. Developed a systematic workflow for data preprocessing and LDA topic extraction, enhancing interpretability through pyLDAvis visualization.</li>
+                                    <li>Implemented <b>sentiment analysis</b> on student review data before and after the internship. Preprocessed the text and Showcased the overall effectiveness of internship</li>
+                                </ol>
+                            </div>
+                        </li>
+                    
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact_main">
+                <p class="section__text__p1">Feel free to get in touch with me</p>
+                <h1 class="title">My Contact Info</h1>
+                <div class="section-contact">
+                    <div class="section-contact-container">
+                        <p> <b>Mail-id:</b> dvardhan89@gmail.com</p>
+                        <p><b>Phone:</b> +1 (937)-503-0370</p>
+                        <p><b>Address:</b> Fairborn, Ohio, United States, 45324.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="script.js"></script>
+    </div>
+    </div>
+</body>
+</html>

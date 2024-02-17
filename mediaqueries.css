@@ -1,0 +1,94 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+/* Media Queries for Mobile View */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Adjust the base font size for smaller screens */
+  }
+
+  .column-1 {
+    width: 100%;
+    margin-left: 0;
+    position: relative;
+  }
+
+  .column-2 {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  nav {
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+  }
+
+  .nav-links {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  #profile {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+
+  #profile .btn-container {
+    margin-top: 30px;
+    text-align: center; /* Center the buttons horizontally */
+  }
+
+  #profile .btn {
+    width: auto; /* Allow buttons to take up the necessary width */
+    margin-right: 10px; /* Add some spacing between the buttons */
+    margin-bottom: 10px; /* Add some spacing between the buttons */
+  }
+
+  .btn-container {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  #about,
+  .course-work,
+  #experience,
+  #projects,
+  #contact {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
